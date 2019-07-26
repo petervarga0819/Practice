@@ -10,6 +10,8 @@ public class UrlFixer {
         url = url.replace("https", "https:");
         url = url.replace("bots", "odds");
         System.out.println(url);
+        //url = url.substring(0, 4) + ":" + url.substring(5);
+        //System.out.println(url);
 
 
     }
